@@ -11,10 +11,10 @@ from setuptools import setup, find_packages
 setup(name='polarisation_package',
       version='1.0',
       description='Polarisation analysis of seismic data to determine the back azimuth',
-      url='https://github.com/gzenhaeusern/xxx',
+      url='https://github.com/gzenhaeusern/polarisation-package',
       author='Géraldine Zenhäusern',
       author_email='geraldine.zenhaeusern@erdw.ethz.ch',
-      license='xxx',
+      license='GPLv3',
       packages=find_packages(),
       install_requires=['obspy', 'numpy', 'matplotlib',
                         'scipy', 'argparse', 'seaborn'])

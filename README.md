@@ -29,6 +29,21 @@ In the [main code](./polarisation_package/polarisation_main.py), timings for P, 
 ## License
 This project is licensed under the terms of the GPLv3 license.
 
+Copyright (C) 2022  Géraldine Zenhäusern (geraldine@zenhausern.net), Simon Stähler (mail@simonstaehler.com), Martin van Driel (Martin@vanDriel.de)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+ any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see [here](https://www.gnu.org/licenses/).
+
 
 ## Notes
 There are some artifacts of InSight data processing in the code (e.g. 1 Hz tick removal option, using manual back azimuths). In case anyone wants to use this code for an analysis of this data set, they were left in the code.
@@ -36,7 +51,7 @@ Some terminology in variable naming is also InSight-based, but is explained in c
 
 * Data should be in an ObsPy compatible format
 * Data should be instrument corrected and rotated to ZNE. There is an option to rotate the traces to ZRT/LQT using a supplied catalog back azimuth
-* Data should be in velocity, or displacement with differentiate = True. The code runs in any case, but the plot labels were made for velocity data
+* Data should be in velocity, or displacement with `differentiate = True`. The code runs in any case, but the plot labels were made for velocity data
 * Ellipticity data is currently not plotted, but can be added/swaped in the code. There is an example comment in the [plot code](./polarisation_package/polarisation_plot.py)
 * If no second signal window is needed, use `phase_S = '-'`. The histogram plots will then remain empty. Supply some dummy time to `timing_S` in that case 
 

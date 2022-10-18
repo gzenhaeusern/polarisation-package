@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='polarisation_package',
-      version='1.0',
+      version='0.1',
       description='Polarisation analysis of seismic data to determine the back azimuth',
       url='https://github.com/gzenhaeusern/polarisation-package',
       author='Géraldine Zenhäusern',

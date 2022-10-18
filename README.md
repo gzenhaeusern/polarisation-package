@@ -7,7 +7,8 @@ Originally used for Martian seismic data from the InSight mission, it can also b
 A detailed description of the method and resulting plot can be found in [BSSA](https://pubs.geoscienceworld.org/ssa/bssa/article/112/4/1787/613988/Low-Frequency-Marsquakes-and-Where-to-Find-Them), or, in the absence of institutional access, [arXiv](https://arxiv.org/abs/2204.12959).
 
 
-Paper: Géraldine Zenhäusern, Simon C. Stähler, John F. Clinton, Domenico Giardini, Savas Ceylan, Raphaël F. Garcia; Low‐Frequency Marsquakes and Where to Find Them: Back Azimuth Determination Using a Polarization Analysis Approach. Bulletin of the Seismological Society of America 2022;; 112 (4): 1787–1805. doi: https://doi.org/10.1785/0120220019
+## Reference
+Géraldine Zenhäusern, Simon C. Stähler, John F. Clinton, Domenico Giardini, Savas Ceylan, Raphaël F. Garcia; Low‐Frequency Marsquakes and Where to Find Them: Back Azimuth Determination Using a Polarization Analysis Approach. *Bulletin of the Seismological Society of America* **2022**; 112 (4): 1787–1805. doi: https://doi.org/10.1785/0120220019
 
 
 

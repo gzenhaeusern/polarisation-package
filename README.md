@@ -1,5 +1,7 @@
 # Polarisation Analysis 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7220543.svg)](https://doi.org/10.5281/zenodo.7220543)
+
 ## Introduction
 This package uses seismic data and applyies a polarisation analysis to obtain a back azimuth based on an arriving wave.
 Originally used for Martian seismic data from the InSight mission, it can also be applied to earthquake data or synthetics.

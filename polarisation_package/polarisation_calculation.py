@@ -154,12 +154,15 @@ def compute_polarization(u1, u2, u3, ntsum=1, dsfact=1, nfsum=1, dsfacf=1):
 
 
 def imshow_alpha(ax, x, y, val, alpha, vmin, vmax, cmap):
+    import matplotlib.dates as mdates
+    x_lims = mdates.date2num([x[0], x[-1]])
+    
     norm = Normalize(vmin=vmin, vmax=vmax, clip=True)
     c = norm(val)
     cmap = plt.cm.get_cmap(cmap)
     colors = cmap(c)
     colors[..., -1] = alpha
-    ax.imshow(colors, extent=(x[0], x[-1], y[-1], y[0]),
+    ax.imshow(colors, extent=(x_lims[0], x_lims[-1], y[-1], y[0]),
               aspect='auto')
 
     cm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)

@@ -919,7 +919,7 @@ def plot_waveforms(st, timing_P, timing_S, tend, specgram_timelim,
     gs = gsxx[0].subgridspec(1, 2, wspace=0.1, hspace=None, height_ratios=[1], width_ratios=[2.3, 1])
     axes = gs.subplots()
     
-    axes[0].plot(xvec_env, st[0].data, "k-") #CHANGE [0] here for different component instead of vertical
+    axes[0].plot(xvec_env, st.select(component='Z')[0].data, "k-") #now uses vertical data
     axes[0].set_xlim(xvec_env[0], xvec_env[-1])
     
     

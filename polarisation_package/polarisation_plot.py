@@ -73,9 +73,10 @@ def plot_polarization_event_noise(st,
         Name of first signal window (for phase/plot labeling).
     phase_S : string
         Name of second signal window (for phase/plot labeling).
-    delta_P: float, optional
-        Picking uncertainty in seconds (will be used as float). Marks uncertainty width on Plot as a horizontal line to compare polarisation of signal to. The default is ''.
-    delta_S : float, optional
+    delta_P: string, optional
+        Picking uncertainty in seconds (will be used as float). Marks uncertainty width on Plot as a horizontal line to compare polarisation of signal to. 
+        The default is '' and no uncertainty will be ploptted.
+    delta_S : string, optional
         Same as previous for the second phase. The default is ''.
     rotation : string, optional
         Specify if traces should be rotated to 'RT' or 'LQT'. If these are given, the value of 'BAZ' is used. The default is 'ZNE'.
